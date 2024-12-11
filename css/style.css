@@ -14,10 +14,10 @@ body{
     /*background: red;*/
     position: absolute;
     top: 135px;
-    left: 100px;
+    left: 380px;
 }
 .row_1 h1{
-    font-family: "Monteserrat-ExtraBold";
+    font-family: "Montserrat-ExtraBold";
     font-size: 64px;
     color: var(--color-2);
 }
@@ -60,15 +60,15 @@ body{
     /*background: blue;*/
     position: absolute;
     top: 50px;
-    right: 175px;
+    right: 200px;
 }
 .row_2 img{
     width: 900px;
-    height: 720px;
+    height: 880px;
     position: relative;
     left: 600px;
     z-index: -1;
-    top: -20px;
+    top: -170px;
 }
 .row_3{
     width: 1112px;
