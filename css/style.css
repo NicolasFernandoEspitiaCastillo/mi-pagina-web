@@ -1,0 +1,123 @@
+@import url(variables.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--color-4);
+}
+.row_1{
+    width: 539px;
+    height: 582px;
+    /*background: red;*/
+    position: absolute;
+    top: 135px;
+    left: 100px;
+}
+.row_1 h1{
+    font-family: "Monteserrat-ExtraBold";
+    font-size: 64px;
+    color: var(--color-2);
+}
+.row_1 h1 span{
+    color: var(--color-3);
+}
+.row_1 p{
+    width: 536px;
+    height: 68px;
+    position: absolute;
+    bottom: 100px;
+    font-family: "Montserrat-Regular";
+    font-size: 24px;
+    color: var(--color-2)
+}
+.row_1 button{
+    width: 280px;
+    height: 66px;
+    position: absolute;
+    bottom: 10px;
+}
+.row_1 img{
+    width: 100px;
+    margin-left: -20px;
+    position: relative;
+    left: 30px;
+}
+.btn{
+    width: 200px;
+    height: 18px;
+    font-family: "Montserrat-Medium";
+    font-size: 22px;
+    color: var(--color-2);
+    border-radius: 40px;
+    background-color: var(--color-3);
+}
+.row_2{
+    width: 539px;
+    height: 720px;
+    /*background: blue;*/
+    position: absolute;
+    top: 50px;
+    right: 175px;
+}
+.row_2 img{
+    width: 900px;
+    height: 720px;
+    position: relative;
+    left: 600px;
+    z-index: -1;
+    top: -20px;
+}
+.row_3{
+    width: 1112px;
+    height: 100px;
+    /*background: orange;*/
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+}
+.btn1{
+    width: 360px;
+    height: 101px;
+    position: absolute;
+    top: 160px;
+    left: -100px;
+    font-family: "Montserrat-SemiBold";
+    font-size: 20px;
+    color: var(--color-2);
+    border-radius: 40px;
+    background: linear-gradient(to right, #d3d3d3, transparent);
+    border: none;
+    outline: none;
+}
+
+.btn2{
+    width: 360px;
+    height: 50px;
+    position: absolute;
+    left: 250px;
+    top: 160px;
+    font-family: "Montserrat-SemiBold";
+    font-size: 20px;
+    color: var(--color-2);
+    border-radius: 40px;
+    background: linear-gradient(to right, #d3d3d3, transparent);
+    border: none;
+    outline: none;
+}
+.btn3{
+    width: 360px;
+    height: 101px;
+    position: absolute;
+    top: 160px;
+    left: 600px;
+    font-family: "Montserrat-SemiBold";
+    font-size: 20px;
+    color: var(--color-2);
+    border-radius: 40px;
+    background: linear-gradient(to right, #d3d3d3, transparent);
+    border: none;
+    outline: none;
+}
